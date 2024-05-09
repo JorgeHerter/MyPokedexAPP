@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0; 
+ }
+ 
+ .body-container {
+    font-family: sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+ 
+   /* CSS to style modal header */
+   .modal-header {
+    background-color: #007bff; /* Blue background color */
+    color: black; 
+    border-bottom: 2px; 
+    
+}
+
+.modal-title {
+    text-justify: center;
+}
+
+
+.modal-body {
+    background-color: chartreuse;
+}
+/* CSS to style modal footer */
+.modal-footer {
+    background-color: #007bff; 
+    border-top: 2px; 
+}
+.row {
+    margin: 5px;
+}
