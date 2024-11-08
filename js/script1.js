@@ -1,4 +1,4 @@
-let pokemonRepository = (function () {
+/*let pokemonRepository = (function () {
     let pokemonList = [];
   
     function add(pokemon) {
@@ -124,4 +124,4 @@ let pokemonRepository = (function () {
     } else {
       console.log("Invalid pokemon entry");
     }
-  }
+  }*/

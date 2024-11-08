@@ -1,6 +1,6 @@
 
   // IIFE for pokemonRepository
-let pokemonRepository = (function () {
+/*let pokemonRepository = (function () {
   let pokemonList = [];
 
   function add(pokemon) {
@@ -123,4 +123,4 @@ $(document).on('keydown', function (event) {
   if (event.key === 'Escape') {
       $('#myModal').modal('hide');
   }
-});
+});*/
