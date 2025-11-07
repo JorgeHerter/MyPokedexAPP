@@ -1,0 +1,65 @@
+*/* Global reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the body */
+.body-container {
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    min-height: 100vh; /* Ensure it covers the viewport height */
+    align-items: center; /* Center content vertically if needed */
+}
+
+/* CSS to style modal header */
+.modal-header {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* Changed to white for better contrast */
+    border-bottom: 2px solid #0056b3; /* Added solid border for visibility */
+    padding: 15px; /* Added padding for spacing */
+}
+
+/* Title styling within the modal header */
+.modal-title {
+    text-align: center; /* Corrected from text-justify to text-align */
+}
+
+/* CSS to style modal body */
+.modal-body {
+    background-color: chartreuse;
+    padding: 15px; /* Added padding for spacing */
+}
+
+/* CSS to style modal footer */
+.modal-footer {
+    background-color: #007bff; /* Blue background color */
+    border-top: 2px solid #0056b3; /* Added solid border for visibility */
+    padding: 15px; /* Added padding for spacing */
+}
+
+/* Row styling */
+.row {
+    margin: 5px;
+    display: flex; /* Added display flex for better alignment if needed */
+    flex-wrap: wrap; /* Allow wrapping of content */
+}
+/* CSS for centering text in the navbar */
+.navbar-nav {
+    flex: 1;
+    text-align: center;
+}
+
+
+.nav-item.mx-auto {
+    margin: 0 auto;
+    text-align: center;
+    /* Ensure that it is taking the available space and centering */
+}
+
+.navbar-brand, .nav-link {
+    margin: 0;
+}
